@@ -1,0 +1,138 @@
+body{
+  font-family: 'Chelsea Market', cursive;
+}
+
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+.container{
+  padding: 3% 15% 20%;
+}
+h1,h2{
+  font-family:  'Chelsea Market', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*title-image*/
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+}
+
+/*button-download*/
+.button-download{
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/*FEATURES*/
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.ff{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.ff:hover{
+  color:#ff4c68;
+}
+p{
+  color:#8f8f8f;
+}
+h3{
+
+  font-size: 1.5rem;
+  font-family: arial;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+
+}
+.preeti{
+  font-size: 2.0rem;
+}
+
+/*TESTIMONIALS*/
+
+#testimonials{
+
+  background-color:#ef8172;
+  text-align: center;
+  color:#fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image
+{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+    background-color:#ef8172;
+      text-align: center;
+      padding-bottom: 3%;
+}
+
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+
+@media (max-width:993px){
+  .title-image{
+    position: static;
+    transform: rotateX(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+/* call to action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 10%;
+}
+
+.ctah3{
+  font-family: 'Chelsea Market', cursive;
+  font-size: 2rem;
+  padding: 3% 0;
+  color: #fff;
+}
+
+
+/* footer */
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.icon{
+  margin: 0 10px 20px;
+}
